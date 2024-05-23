@@ -12,7 +12,7 @@ Installation
 
 
 ## Clone this repository:
-git clone https://github.com/yourusername/syn-flood-script.git
+git clone https://github.com/dhananjay-c/dhananjay-c-SYN-Flood-DOS-Attack-Script.git
 cd syn-flood-script
 
 
@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 
 ## Usage
-python syn_flood.py <target_ip> <target_port> [-c COUNT] [-i INTERVAL]
+python syn_flood_ddos.py <target_ip> <target_port> [-c COUNT] [-i INTERVAL]
 
 <target_ip>: Target IP address
 <target_port>: Target port number
@@ -31,7 +31,7 @@ python syn_flood.py <target_ip> <target_port> [-c COUNT] [-i INTERVAL]
 
 ## Example
 To send 500 SYN packets to 192.168.1.10 on port 80 with an interval of 0.05 seconds:
-python syn_flood.py 192.168.1.10 80 -c 500 -i 0.05
+python syn_flood_ddos.py 192.168.1.10 80 -c 500 -i 0.05
 
 
 ## Disclaimer
