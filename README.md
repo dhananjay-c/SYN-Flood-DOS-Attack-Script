@@ -12,7 +12,7 @@ Installation
 
 
 ## Clone this repository:
-git clone https://github.com/dhananjay-c/dhananjay-c-SYN-Flood-DOS-Attack-Script.git
+git clone https://github.com/dhananjay-c/dhananjay-c-SYN-Flood-DOS-Attack-Script.git \n
 cd syn-flood-script
 
 
