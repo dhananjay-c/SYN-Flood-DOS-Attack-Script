@@ -1,4 +1,4 @@
-# dhananjay-c-SYN-Flood-DOS-Attack-Script
+# SYN Flood DOS Attack Script
 
 This script demonstrates how to perform a SYN flood attack using Python and the Scapy library. A SYN flood attack is a type of Denial of Service (DoS) attack that aims to overwhelm a target system by sending a large number of SYN packets.
 
@@ -6,32 +6,32 @@ Note: This script is intended for educational purposes only. Performing a SYN fl
 
 
 ## Prerequisites
-Python 3.x
-Scapy library
-Installation
+• Python 3 <br>
+• Scapy library <br>
+• Installation <br>
 
 
 ## Clone this repository:
-git clone https://github.com/dhananjay-c/dhananjay-c-SYN-Flood-DOS-Attack-Script.git \n
-cd syn-flood-script
+**git clone https://github.com/dhananjay-c/dhananjay-c-SYN-Flood-DOS-Attack-Script.git** <br>
+**cd syn-flood-script**
 
 
 ## Install the required Python packages:
-pip install -r requirements.txt
+**pip install scapy**
 
 
 ## Usage
-python syn_flood_ddos.py <target_ip> <target_port> [-c COUNT] [-i INTERVAL]
+**python syn_flood_ddos.py <target_ip> <target_port> [-c COUNT] [-i INTERVAL]**
 
-<target_ip>: Target IP address
-<target_port>: Target port number
--c COUNT, --count COUNT: Number of packets to send (default: 1000)
--i INTERVAL, --interval INTERVAL: Interval between packets in seconds (default: 0.01)
+• <target_ip>: Target IP address<br>
+• <target_port>: Target port number<br>
+• -c COUNT, --count COUNT: Number of packets to send (default: 1000)<br>
+• -i INTERVAL, --interval INTERVAL: Interval between packets in seconds (default: 0.01)<br>
 
 
 ## Example
 To send 500 SYN packets to 192.168.1.10 on port 80 with an interval of 0.05 seconds:
-python syn_flood_ddos.py 192.168.1.10 80 -c 500 -i 0.05
+**python syn_flood_ddos.py 192.168.1.10 80 -c 500 -i 0.05**
 
 
 ## Disclaimer
